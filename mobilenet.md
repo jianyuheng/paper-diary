@@ -1,7 +1,7 @@
-[论文]()
-[代码]()
+[论文](https://arxiv.org/abs/1704.04861)
+[代码](https://github.com/Zehaos/MobileNet)
 
-网络结构
+# 网络结构
 ![image](https://github.com/jyhengcoder/paper-diary/blob/master/images/mobilenet_v1.png)
 
 核心思想就是卷积核的巧妙分解，可以有效减少网络参数.
