@@ -7,9 +7,9 @@
 
 ## 创新点
 - 自学习分组卷积
-![image](https://github.com/jyhengcoder/paper-diary/tree/master/images/condensnet.png)
+![image](https://github.com/jyhengcoder/paper-diary/blob/master/images/condensnet.png)
 
 - 层与层之间均采用密集连接，而不仅局限于block内了
-![image](https://github.com/jyhengcoder/paper-diary/tree/master/images/condensenet_block.png)
+![image](https://github.com/jyhengcoder/paper-diary/blob/master/images/condensenet_block.png)
 
 
