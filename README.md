@@ -9,6 +9,7 @@
 - [MobileNet_v2](https://github.com/jyhengcoder/paper-diary/blob/master/papers/mobilenet_v2.md)
 - [ShuffleNet](https://github.com/jyhengcoder/paper-diary/blob/master/papers/shufflenet.md)
 - [MobileFaceNet](https://github.com/jyhengcoder/paper-diary/blob/master/papers/mobilefacenet.md)
+- [ConDenseNet](https://github.com/jyhengcoder/paper-diary/blob/master/papers/condensenet.md)
 
 
 
