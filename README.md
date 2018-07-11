@@ -1,5 +1,7 @@
 # paper
 
+## loss
+- [Loss](https://github.com/jyhengcoder/paper-diary/blob/master/papers/loss.md)
 ## face recognition 
 - [FaceNet](https://github.com/jyhengcoder/paper-diary/blob/master/papers/facenet.md)
 
