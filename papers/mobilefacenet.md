@@ -19,5 +19,5 @@ mobilefacenet其实是[mobilenet_v2](https://github.com/jyhengcoder/paper-diary/
 - 一些小细节：通道扩张倍数变小；使用Prelu代替relu;使用batch Normalization。 
 
 ## 网络结构
-![image](https://github.com/jyhengcoder/paper-diary/master/images/mobilefacenet.png)
+![image](https://github.com/jyhengcoder/paper-diary/blob/master/images/mobilefacenet.jpeg)
 
