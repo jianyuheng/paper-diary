@@ -15,7 +15,7 @@
 - [ConDenseNet](https://github.com/jyhengcoder/paper-diary/blob/master/papers/condensenet.md)
 
 ## 量化
-- [二值化网络 Binarized Neural Networks](https://github.com/jyhengcoder/paper-diary/blob/master/papers/Binarized Neural Networks.md)
+- [二值化网络 Binarized Neural Networks](https://github.com/jyhengcoder/paper-diary/blob/master/papers/Binarized-Neural-Networks.md)
 
 
 
