@@ -17,6 +17,10 @@
 ## 量化
 - [二值化网络 Binarized Neural Networks](https://github.com/jyhengcoder/paper-diary/blob/master/papers/Binarized-Neural-Networks.md)
 
+## 剪枝
+- NISP: Pruning Networks using Neuron Importance Score Propagation
+- Net-Trim: Convex Pruning of Deep Neural Networks with Performance Guarantee
+- Channel Pruning for Accelerating Very Deep Neural Networks 
 
 
 # vertification
