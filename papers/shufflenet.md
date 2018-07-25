@@ -8,9 +8,7 @@
 
 其造成的问题是，输出通道只和输入的某些通道有关，导致全局信息流通不畅，网络表达能力不足。
 ![image](https://github.com/jyhengcoder/paper-diary/blob/master/images/shuffle_1.png)
- - 图a是之前的一种ResNet网络结构模块，其参考了“MobileNet”的实现。其中的DWConv指的是 depthwise convolution。
- - 图b是本文给出的一种模块(输出前后feature的size不变)， 相比于图a,只是将第一个1x1卷积改成了group convolution，同时后续增加通道 shuffle。
- - 图c是本文给出的另一种模块(输出前后feature的size变小，但通道数增加)，主要是为了应对下采样问题。 注意，最后的合并操作由原来的 “Add” 变成了 “Concat”, 目的是为了增加通道数。
+
 ![image](https://github.com/jyhengcoder/paper-diary/blob/master/images/shuffle_2.png)
 
 ## 深度可分卷积(depthwise separable convolution)
@@ -18,6 +16,9 @@
 
 ## shuffle unit
 ![image](https://github.com/jyhengcoder/paper-diary/blob/master/images/shuffle_unit.png)
+ - 图a是之前的一种ResNet网络结构模块，其参考了“MobileNet”的实现。其中的DWConv指的是 depthwise convolution。
+ - 图b是本文给出的一种模块(输出前后feature的size不变)， 相比于图a,只是将第一个1x1卷积改成了group convolution，同时后续增加通道 shuffle。
+ - 图c是本文给出的另一种模块(输出前后feature的size变小，但通道数增加)，主要是为了应对下采样问题。 注意，最后的合并操作由原来的 “Add” 变成了 “Concat”, 目的是为了增加通道数。
 给定一个计算限制，ShuffleNet可以使用更宽的特征映射。我们发现这对小型网络很重要，因为小型网络没有足够的通道传递信息。
 需要注意的是:虽然深度卷积可以减少计算量和参数量，但在低功耗设备上，与密集的操作相比，计算/存储访问的效率更差。故在ShuffleNet上我们只在bottleneck上使用深度卷积，尽可能的减少开销.
 
