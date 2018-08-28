@@ -21,7 +21,7 @@
 提出了一种角度的softmax.学习到角度判别性的特征。可以看成在一个超球面的流形上施加判别性的约束。先验假设是：人脸是位于流形上的。通过参数m定量调整角度的裕量，并导出了m的下界。证明易懂。
 
 [CosFace/AM-Softmax loss](https://blog.csdn.net/u014230646/article/details/79487404)
-- 这篇是对sphereface的改进之一，具体的方法是把角度裕量从cos(mθ)改进为cos(θ)+m
+- 这篇是对sphereface的改进之一，具体的方法是把角度裕量从cos(mθ)改进为cos(θ)-m
 ，主要的好处是这样改进之后容易收敛。相当于原始余弦函数在y轴上的偏移，使得分类更加困难。
 
 [ArcFace loss](https://blog.csdn.net/u014230646/article/details/79487720)
